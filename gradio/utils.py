@@ -37,7 +37,7 @@ class Patchilizer:
                     else:
                         new_line_bars = [line_bars[0]] + [line_bars[i] + line_bars[i + 1] for i in range(1, len(line_bars), 2)]
                     if 'V' not in new_line_bars[-1]:
-                        new_line_bars[-2] += new_line_bars[-1]  # 吸收最后一个 小节线+\n 的组合
+                        new_line_bars[-2] += new_line_bars[-1]  # 吸收最后一个 小节线+\n 的组合 -> Absorb the last bar line + \n combination
                         new_line_bars = new_line_bars[:-1]
                 new_bars += new_line_bars
         except:

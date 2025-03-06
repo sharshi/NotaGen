@@ -13,7 +13,8 @@ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
 See the Lesser GNU General Public License for more details. <http://www.gnu.org/licenses/lgpl.html>.
 '''
 
-'''Small revisions made for NotaGen to improve the succuess rate of conversion.'''
+'''Small revisions made for NotaGen to improve the succuess rate of conversion.''' 
+# original file: https://raw.githubusercontent.com/SpotlightKid/xml2abc/refs/heads/master/xml2abc.py 
 
 try:    import xml.etree.cElementTree as E
 except: import xml.etree.ElementTree as E
